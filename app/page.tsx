@@ -12,7 +12,6 @@ export default function Page() {
       <SidebarInset>
         <PageHeader />
         <div className="flex flex-1 flex-col gap-6 p-6">
-          {/* Page Title */}
           <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <h1 className="text-2xl font-semibold tracking-tight text-foreground">Leads</h1>
@@ -30,10 +29,8 @@ export default function Page() {
             </Tabs>
           </div>
 
-          {/* Stats */}
-          <StatCards />
+          {/* <StatCards /> */}
 
-          {/* Data Table */}
           <LeadsTable />
         </div>
       </SidebarInset>
